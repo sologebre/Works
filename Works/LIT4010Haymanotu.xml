@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT4010Haymanotu">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">ሃይማኖቱ፡ ለቅዱስ፡ ዓቢይ፡ ማሪ፡ ያዕቆብ፡ እልበራድዒ፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t1">Hāymānotu la-qǝddus ʿābiyy māri Yāʿǝqob ʾƎlbarādʿi</title>
+            <title xml:lang="en" corresp="#t1">Creed of Jacob Baradaeus</title>
+            <title xml:lang="ar" xml:id="t2arabic">Arabic Creed of Jacob Baradaeus</title>
+            <editor key="DR"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness corresp="BNFet11#ms_i2"/>
+               <witness corresp="BLadd24988"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="syr">Syriac</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DR" when="2016-10-04">Record created</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+      <div type="bibliography">
+         <listBibl type="editions">
+            <bibl><ptr target="bm:Cornill1876Glaubensbekenntnis"/></bibl>
+         </listBibl>
+         <listBibl type="translation">
+            <bibl><ptr target="bm:Cornill1876Glaubensbekenntnis"/></bibl>
+         </listBibl>
+         <listBibl type="secondary" corresp="#t3arabic">
+            <bibl><ptr target="bm:Assemanus1721Bibliotheca"/><citedRange unit="page">67</citedRange></bibl>
+         </listBibl>
+      <listBibl type="relations">
+         <bibl/>
+         <relation name="saws:isAttributedToAuthor" active="LIT4010Haymanotu" passive="PRS5651JacobBa"/>
+         <relation name="saws:isVersionInAnotherLanguageOf" active="LIT4010Haymanotu#t1" passive="LIT4010Haymanotu#t2arabic" cert="low"/>
+      </listBibl>
+      </div>
+      </body>
+   </text>
+</TEI>

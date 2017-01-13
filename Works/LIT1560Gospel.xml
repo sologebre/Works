@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1560Gospel">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">አርባዕቱ፡ ወንጌል፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">ʾArbāʿtu wangel</title>
+            <title xml:lang="en" corresp="#t1">Four Gospels</title>
+            <title xml:lang="en" corresp="#t1">Tetraevangelium</title>
+            <title xml:lang="gez" xml:id="t2">ቅዱስ፡ ወንጌል፡</title>
+            <title xml:lang="gez" corresp="#t2" type="normalized">Qǝddus wangel</title>
+            <title xml:lang="en" corresp="#t2">Holy Gospel</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-10-20">Title updated and textparts added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="edition">
+            
+            <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="IntroductionGospels">
+               <label>Introduction to the Four Gospels</label>
+               
+               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="IntroductionMaqdema">
+                  <label>Maqdǝma wangel</label>
+                  <note>This text has been translated from Arabic; an abridged version of the Arabic text can
+                     be found in BNF Arabe 57, <ref target="http://archivesetmanuscrits.bnf.fr/ark:/12148/cc89326k"/>.
+                     <bibl>
+                        <ptr target="bm:Zotenberg1877Catalogue"/>
+                        <citedRange unit="page">29</citedRange>
+                     </bibl>
+                  </note>
+               </div>
+               
+               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="IntroductionEpistle">
+                  <label>Epistle to Carpianus by Eusebius</label>
+               </div>
+               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="IntroductionCanons">
+                  <label>Canons of Eusebius</label>
+               </div>
+               <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="IntroductionGessawe">
+                  <label>Gǝṣṣāwe śǝrʿāt</label>
+               </div>
+            </div>
+            
+            <div type="textpart" subtype="chapter" xml:lang="gez" corresp="LIT1558Matthew" xml:id="GospelMatthew">
+               <label>Gospel of Matthew</label>
+            </div>
+            
+            <div type="textpart" subtype="chapter" xml:lang="gez" corresp="LIT1882MarkGo" xml:id="GospelMark">
+               <label>Gospel of Mark</label>
+            </div>
+            
+            <div type="textpart" subtype="chapter" xml:lang="gez" corresp="LIT1812GospelLuke" xml:id="GospelLuke">
+               <label>Gospel of Luke</label>
+            </div>
+            
+            <div type="textpart" subtype="chapter" xml:lang="gez" corresp="LIT1693John" xml:id="GospelJohn">
+               <label>Gospel of John</label>
+            </div>
+            
+         </div>
+      </body>
+   </text>
+</TEI>

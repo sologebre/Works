@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT3953MashafaQ">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ቀንዲል፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t1">Maṣḥafa qandil</title>
+            <title xml:lang="en" corresp="#t1">Book of the Lamp</title>  <!--OR<title xml:lang="gez" type="translated" corresp="#t1">-->
+            <title xml:lang="ar"  type="normalized" xml:id="t2Arabic">Qandīl</title>
+            <title xml:lang="grc" xml:id="t3Greek"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <ab/> <!--witnesses to be added -  manuscripts used for bm:1967Qandil-->
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="cop">Coptic</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <abstract>
+            <ab>
+             The Maṣḥafa qandil is the ritual for the Unction of the Sick in the Ethiopian Church. Each of its seven sections consists of the following elements:
+             the lighting of a wick, a supplication, an epistle, the Trisagion, the Prayer of the Gospel with incensing and a mǝsbak, a Gospel reading and a prayer.
+               <bibl>
+                  <ptr target="bm:Zanetti2010Qandil"/>
+               </bibl>
+            </ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-09-05">Bibliography, witness and abstract added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:1967Qandil"/> 
+            </bibl>
+         </listBibl>
+            <listBibl type="translation" corresp="#t2Arabic">
+               <bibl>
+                  <ptr target="bm:Burmester1967Liturgical"/>
+                  <citedRange unit="page">144-151</citedRange>
+               </bibl>
+            </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Zanetti2010Qandil"/>
+            </bibl>
+         </listBibl>
+            <listBibl type="relations">
+               <bibl></bibl>
+               <relation name="saws:isVersionInAnotherLanguageOf" active="LIT3953MashafaQ" passive="LIT3953MashafaQ#t2Arabic"/>
+               <relation name="saws:isVersionInAnotherLanguageOf" active="LIT3953MashafaQ#t2Arabic" passive="LIT3953MashafaQ#t3Greek"/>
+               <relation name="saws:isDifferentTo" active="LIT3953MashafaQ" passive="LIT1918Mashaf"/>
+               <relation name="saws:isVariantTranslationOf" active="LIT3953MashafaQ" passive="LIT3952MashafaQ"/>
+            </listBibl>
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="Beginning">
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="FirstPrayer">
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="SecondPrayer">
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="ThirdPrayer">
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="FourthPrayer">
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="FifthPrayer">
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="SixthPrayer">
+         </div>
+         <div type="textpart" subtype="chapter" xml:id="SeventhPrayer">
+         </div>
+      </body>
+   </text>
+</TEI>

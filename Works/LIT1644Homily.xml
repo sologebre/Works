@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1644Homily">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="t1" xml:lang="en">Homily on the Deceased</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-09-02">Changes</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl type="relations">
+               <bibl></bibl>
+               <relation name="saws:isAttributedToAuthor" active="LIT1644Homily" passive="PRS8387SalamaI"/>
+            </listBibl>
+            <listBibl type="editions">
+               <bibl><ptr target="bm:ContiRossini1904manoscritti" xml:id="edition"/> <citedRange unit="page">248-252</citedRange> </bibl>
+            </listBibl>
+         </div>
+         <div type="textpart" xml:id="incipit" corresp="#edition">
+           <ab>ድርሳን፡ ዘቅዱስ፡ ወብፁዕ፡ አባ፡ ሰላማ፡ ሊቀ፡ ጳጳሳት፡ ዘብሔረ፡ ኢትዮጵያ። ዝንቱ፡ ዘይትነበብ፡ ላዕለ፡ ምውታን፡ እምድኅረ፡ ጸሎት፡ ላዕሌሆሙ፡ በሰላመ፡ እግዚአብሔር፡ አሜን</ab>
+         </div>
+      </body>
+   </text>
+</TEI>

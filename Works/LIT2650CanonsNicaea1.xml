@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT2650CanonsNicaea1">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="t1">Canons of the Council of Nicaea I</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="textpart" subtype="chapter" xml:id="Canon1"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon2"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon3"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon4"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon5"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon6"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon7"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon8"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon9"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon10"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon11"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon12"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon13"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon14"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon15"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon16"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon17"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon18"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon19"/>
+         <div type="textpart" subtype="chapter" xml:id="Canon20"/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1812GospelLuke">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">ወንጌል፡ ዘሉቃስ፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Wangel za-Luqās</title>
+            <title xml:lang="en" corresp="#t1">Gospel of Luke</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>It includes tituli, biography and Bǝsrāta Luqās</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+        <div type="edition">
+           
+           <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="BiographyLuke">
+            <label>Introduction and Biography of Luke</label>
+              <listBibl type="catalogue">
+                 <bibl>  
+                    <ptr target="bm:Dillmann1848Catalogus"/>
+                    <citedRange unit="page">15</citedRange>
+                 </bibl>
+                 <bibl>
+                    <ptr target="bm:Nicoll1821Bodleianae"/>
+                    <citedRange unit="page">17-18</citedRange>
+                 </bibl>
+              </listBibl>
+         </div>
+           
+         <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="TituliLuke">
+            <label>Tituli of the Gospel of Luke</label>
+         </div>
+           
+         <div type="textpart" subtype="chapter" xml:lang="gez" xml:id="BesrataLuke">
+            <label>Bəsrata Luqās</label>
+         </div>
+           
+        </div>
+      </body>
+   </text>
+</TEI>

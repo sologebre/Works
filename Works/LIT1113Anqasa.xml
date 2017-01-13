@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1113Anqasa">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">አንቀጸ፡ ብርሃን፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t1">ʾAnqaṣa bǝrhān</title>
+            <title xml:lang="gez" xml:id="t2">ውዳሴ፡ ወግናይ፡ ለእመ፡ አዶናይ፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t2">Wǝddāse wa-gǝnāy la-ʾǝmma ʾadonāy</title>
+            <title xml:lang="gez" xml:id="t3">ውዳሴሃ፡ ለእግዝእትነ፡ ማርያም፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t3">Wǝddāsehā la-ʾǝgzǝʾǝtna Māryām</title>
+            <title xml:lang="gez" xml:id="t4">ወዳሴ፡ በዕለተ፡ ሰንበት፡ ክርስቲያን፡ </title>
+            <title xml:lang="gez" type="normalized" corresp="#t4">Wǝddāse ba-ʿǝlat sanbat krǝstiyān</title>
+            
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness cert="medium" corresp="Bladd11621#i1.5"/>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <abstract><p>The <foreign xml:lang="gez">ʾAnqaṣa bǝrhān</foreign> is a collection of hymns to be chanted on Sundays in praise of the Blessed Virgin.
+            It is part of the Ethiopic <ref type="work" corresp="LIT2701Dawit">psalter</ref>, copied following the <ref type="work" corresp="LIT2509Weddas"/>
+            Tradition ascribes its composition to <persName ref="PRS10245Yared">St. Yāred</persName>.</p>
+           <p> <bibl>
+               <ptr target="bm:Getatchew2003Anqasa"/>
+            </bibl></p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="MV" when="2016-04-28">ِAdded bibliographic references</change>
+         <change who="DR" when="2016-08-25">Title updated and abstract added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl type="editions">
+               <bibl>
+                  <ptr target="bm:Grohmann1919Marien"/>
+               </bibl>
+            </listBibl>
+            <listBibl type="text">
+               <bibl>
+                  <ptr target="bm:Lash1972Gateof"/>
+               </bibl>
+            </listBibl>
+            <listBibl type="secondary">
+               <bibl>
+                  <ptr target="bm:Getatchew2003Anqasa"/>
+               </bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

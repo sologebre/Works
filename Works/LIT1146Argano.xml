@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1146Argano">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">አርጋኖነ፡ ማርያም፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">ʾArgānona Māryām</title>
+            <title xml:lang="en" corresp="#t1">The Organ of Mary</title>
+            <title xml:lang="gez" xml:id="t2">አርጋኖነ፡ ውዳሴ፡</title>
+            <title xml:lang="gez" corresp="#t2" type="normalized">ʾArgānona Wǝddāse</title>
+            <title xml:lang="en" corresp="#t2">The Organ of Praise</title>
+            <title xml:lang="gez" xml:id="t3">አርጋኖነ፡ ድንግል፡</title>
+            <title xml:lang="gez" corresp="#t3" type="normalized">ʾArgānona Dǝngǝl</title>
+            <title xml:lang="en" corresp="#t3">The Organ of the Virgin</title>
+            <title xml:lang="lat" xml:id="t4latin" type="translated"></title>
+            <!-- See issue #85 on this topic, and see BLharl7629-->
+            <author>Giyorgis of Saglā</author>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-09-15">Transferred author to relations, added bibliogrpahy</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+         <listBibl type="relations">
+            <bibl></bibl>
+            <relation name="saws:isVersionInAnotherLanguageOf" active="LIT1146Argano#t1" passive="#t4latin"/>
+            <relation name="saws:isAttributedToAuthor" active="LIT1146Argano" passive="PRS4709Giyorgis"/>
+         </listBibl>
+           <listBibl type="editions">
+              <bibl><ptr target="bm:Leander1922Arganona"/></bibl>
+           </listBibl>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Getatchew2003Arganona"/></bibl>
+            </listBibl>
+      </div>
+         <div type="textpart" xml:id="Monday"></div>
+         <div type="textpart" xml:id="Tuesday"></div>
+         <div type="textpart" xml:id="Wednesday"></div>
+         <div type="textpart" xml:id="Thursday"></div>
+         <div type="textpart" xml:id="Friday"></div>
+         <div type="textpart" xml:id="Saturday"></div>
+         <div type="textpart" xml:id="Sunday"></div>
+      </body>
+   </text>
+</TEI>

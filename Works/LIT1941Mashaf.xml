@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1941Mashaf">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ልደታ፡ ለማርያም፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa lǝdatā la-Māryām</title>
+            <title xml:lang="en" corresp="#t1">The Book of the Nativity of Mary</title>
+            <title xml:lang="la" corresp="#t1">Liber Nativitatis Mariae</title>
+            <title xml:id="t2" xml:lang="la" resp="PRS7936Postel">Protevangelium Jacobi</title>
+            <title xml:id="t3" xml:lang="en">Gospel of James</title>
+            <title xml:lang="grc" xml:id="t3greek"></title>
+            <title xml:lang="ar" xml:id="t4arabic"></title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <creation notAfter="0300" corresp="#t3greek"/>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-10-20">Title updated and bibliography added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Ezra2007Ledata"/></bibl>
+            </listBibl>
+         </div>
+      </body>
+   </text>
+</TEI>

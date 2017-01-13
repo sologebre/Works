@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:lang="en"
+     xml:id="LIT1893Martyr"
+     type="work">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="en" xml:id="t1">Martyrium of Basilides</title>
+            <author cert="low" corresp="PRS10791Klestiyanos"/>
+            
+
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               
+               <witness corresp="BLorient686"/>
+               
+               
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <abstract>
+            <p>According to <ref corresp="BLorient686" type="mss">BL orient 686</ref> it was translated from Coptic by ʿabbā Simʿon  of 
+               Dabra Entonyos in <date type="translation">AM 6889 (AD 1396-1397)</date>
+            </p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+
+         <change who="PL" when="2016-02-09">CREATED: text record</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>
+            ተተርጉመ ፡ ዝንቱ፡ መጸሓፍ ፡ እምልሳ ነ፡ ቅብጢ፡ ኅበ ፡ ግዕዝ ፡ እምዓመት ፡ ፷፻ወ፳፻ ፹ወ፱ለፍጥረት ፡ ዓለም ፡ ፡ አምዓመተ ፡ ስማዕ ታት ፡ ጻድቃን ፡
+            <date>፲፻ወ፪፻ወ፴</date> ፡፡ ዛተርጒሞ ፡ ለዝ ንቱ ፡ መጽሐፍ ፡ አባ ፡ ስም^ን ፡ ወአዕለዎ ፡ እ ምልሳነ ፡ ግብጽ ፡ ኅበ ፡ ልሳነ ፡ ግዕዝ ፡ ካ^ን ፡ መነኮስ ፡ ዛእምደብረ ፡ እንጦንዮስ ፡
+         </p>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1948Mashaf">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ማር፡ ይስሐቅ፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa Mār Yǝṣhāq</title>
+            <title xml:lang="en" corresp="#t1">The book of Mār Yǝṣhāq</title>
+            <title xml:lang="ar" xml:id="t2arabic">35 Chapters on the Monastic Life</title>
+            <!--Syriac and Greek-->
+            <editor key="DR"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+            <language ident="syr">Syriac</language>
+            <language ident="grc">Greek</language>
+         </langUsage>
+         <abstract><p>The 35 chapters on the monastic life known in Gǝʿǝz as Maṣḥafa Mār Yǝṣhāq have been translated from Arabic. The Arabic version has been translated
+            by <persName ref="PRS1346AbulFa"/> from Greek and consitutes the third volume of  <persName ref="PRS5581Isaacof"/>'s Arabic works. Some of the chapters are preserved in the original Syriac.</p></abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-10-05">Title updated and information added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+        <div type="bibliography">
+           <listBibl type="relations">
+            <bibl/>
+            <relation name="saws:isAttributedToAuthor" active="LIT1948Mashaf" passive="PRS5581Isaacof">
+               <desc>Some of the texts in <ref target="#t3arabic"/> are originally written by <persName ref="PRS5581Isaacof"/>.</desc>
+            </relation>
+            <relation name="saws:formsPartOf" active="LIT1948Mashaf" passive="LIT1908Masahe"/>
+            <relation name="saws:isVersionInAnotherLanguageOf" active="LIT1948Mashaf#t1" passive="LIT1948Mashaf#t3arabic">
+               <desc></desc>
+            </relation>
+            <relation name="saws:isAttributedToAuthor" active="LIT1948Mashaf#t3arabic" passive="PRS1346AbulFa">
+               <desc><persName ref="PRS1346AbulFa"/>translated the 35 chapters on the monastic life from Greek to Arabic, 
+                  adding a preface addressed to <persName ref="PRS5581Isaacof"/>
+                  and stating the name of his patron, <persName ref="PRS11213Nicephorus"/>.
+                  <bibl><ptr target="bm:Graf1947GCALII"/><citedRange unit="page">58</citedRange></bibl></desc>
+            </relation> 
+         </listBibl>
+         
+         <listBibl type="secondary">
+            <bibl><ptr target="bm:Weninger2007EAEIsaacNineveh"/></bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl><ptr target="bm:Dawit1997Yeshaq"/></bibl>
+         </listBibl>
+        </div>
+         
+         <div type="textpart" xml:id="Preface">
+            <label>Preface by the translator <persName ref="PRS1346AbulFa"/></label>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter1">
+            <label>First Chapter: On the love of God, humility, charity, chastity, solitude, etc.</label>
+            <listBibl type="editions"> <!--Syriac-->
+               <bibl><ptr target="bm:Bedjan1909Isaac"/><citedRange unit="page">40-60</citedRange> </bibl>
+            </listBibl> 
+            <listBibl type="secondary"> <!--Syriac-->
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">453-454</citedRange>
+                  <citedRange unit="part">sermo 1</citedRange></bibl>
+            </listBibl>
+            <listBibl type="catalogue"> <!--Syriac-->
+               <bibl><ptr target="bm:Assemanus1759Bibliothecae"/>
+                  <citedRange unit="page">434</citedRange></bibl>
+            </listBibl>
+             
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">811-820</citedRange>
+                  <citedRange unit="chapter">1-10</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter2">
+            <label></label>
+         <listBibl type="editions" >
+            <bibl><ptr target="bm:Bedjan1909Isaac"/>
+               <citedRange unit="page">60-80</citedRange> </bibl>
+         </listBibl> 
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">454</citedRange>
+                  <citedRange unit="part">sermo 2 </citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">821-830</citedRange>
+                  <citedRange unit="chapter">11-13</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter3">
+            <label></label>
+            <listBibl type="editions">
+               <bibl><ptr target="bm:Bedjan1909Isaac"/>
+                  <citedRange unit="page">81-99</citedRange> </bibl>
+            </listBibl> 
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">454</citedRange>
+                  <citedRange unit="part">sermo 3</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">830-837</citedRange>
+                  <citedRange unit="chapter">14-17</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter4">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">454</citedRange>
+                  <citedRange unit="part">sermo 5</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">837-847</citedRange>
+                  <citedRange unit="chapter">18-19</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter5">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">454</citedRange>
+                  <citedRange unit="part">sermo 6</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">848</citedRange>
+                  <citedRange unit="chapter">20</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter6">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">454</citedRange>
+                  <citedRange unit="part">sermo 7</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter7">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">454</citedRange>
+                  <citedRange unit="part">sermo 8</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">849-851</citedRange>
+                  <citedRange unit="chapter">21-23</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter8">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">455</citedRange>
+                  <citedRange unit="part">sermo 10</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter9">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">455</citedRange>
+                  <citedRange unit="part">sermo 11</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">851-852</citedRange>
+                  <citedRange unit="chapter">24</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter10">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">455</citedRange>
+                  <citedRange unit="part">sermo 13-14</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">852-854</citedRange>
+                  <citedRange unit="chapter">25</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter11">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">455</citedRange>
+                  <citedRange unit="part">sermo 12</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">854-855</citedRange>
+                  <citedRange unit="chapter">26</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter12">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">455</citedRange>
+                  <citedRange unit="part">sermo 15</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">855-857</citedRange>
+                  <citedRange unit="chapter">27</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter13">
+            <label></label>
+            <listBibl type="relations">
+               <bibl/>
+               <relation name="saws:isAttributedToAuthor" active="LIT1948Mashaf#Chapter13" passive="PRS5740JohnSab">
+                  <desc>This discourse is attributed to <persName ref="PRS5581Isaacof"/>, 
+                     but is part of the ascetic homilies of <persName ref="PRS5740JohnSab"/>.</desc>
+               </relation>
+            </listBibl>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">440; 456</citedRange>
+                  <citedRange unit="part">20 </citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">857-859</citedRange>
+                  <citedRange unit="chapter">28-29</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter14">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 16</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">859-860</citedRange>
+                  <citedRange unit="chapter">30</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter15">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 17</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">860-863</citedRange>
+                  <citedRange unit="chapter">31</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter16">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 18</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter17">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 19</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter18">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 20</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">864</citedRange>
+                  <citedRange unit="chapter">33</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter19">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 21</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">864-865</citedRange>
+                  <citedRange unit="chapter">34</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter20">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 22</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter21">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">456</citedRange>
+                  <citedRange unit="part">sermo 23; 24</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">866-868</citedRange>
+                  <citedRange unit="chapter">36; 37</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter22">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 25</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">868-871</citedRange>
+                  <citedRange unit="chapter">38-40; Beginning of 41 until "est signum
+                  profectus hominis per auxilium"</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter23">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 26</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">871-872</citedRange>
+                  <citedRange unit="chapter">41-43</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter24">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 27</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">872-874</citedRange>
+                  <citedRange unit="chapter">44-46</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter25">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 28</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">874</citedRange>
+                  <citedRange unit="chapter">47</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter26">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 29</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">874-875</citedRange>
+                  <citedRange unit="chapter">48 until
+               "et mare fidei aperire in animo nostro"</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter27">
+            <label></label>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">875-876</citedRange>
+                  <citedRange unit="chapter">48 from "Gratia post gratiam data est hominibus"</citedRange></bibl>
+            </listBibl>
+            
+         </div>
+         <div type="textpart" xml:id="Chapter28">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 30</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">876-878</citedRange>
+                  <citedRange unit="chapter">49; 50</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter29">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 31</citedRange></bibl>
+            </listBibl>
+            <listBibl type="translation"> <!--Translation of the Greek-->
+               <bibl><ptr target="bm:Migne1865Eusebii"/>
+                  <citedRange unit="column">878-883</citedRange>
+                  <citedRange unit="chapter">51-52</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter30">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 32</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter31">
+            <label></label>
+            <listBibl type="catalogue"> <!--Syriac-->
+               <bibl><ptr target="bm:Assemanus1759Bibliothecae"/> 
+                  <citedRange unit="page">439</citedRange>
+                  <citedRange unit="part">sermo 32</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter32">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 33</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter33">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">457</citedRange>
+                  <citedRange unit="part">sermo 34</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter34">
+            <label></label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">458</citedRange>
+                  <citedRange unit="part">sermo 35</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter35">
+            <label>On patience</label>
+         </div>
+         
+         <div type="textpart" xml:id="Chapter36">
+            <label>Disourse on the solitary life</label>
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Assemanus1719BibliothecaI"/>
+                  <citedRange unit="page">458</citedRange>
+                  <citedRange unit="part">sermo 39</citedRange></bibl>
+            </listBibl>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

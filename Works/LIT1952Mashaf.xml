@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1952Mashaf">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ምሥጢር፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa mǝśṭir</title>
+            <title xml:lang="en" corresp="#t1">Book of Mystery</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-09-21">Information added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl type="secondary">
+            <bibl><ptr target="bm:Bausi2007EAEMestir"/></bibl>
+         </listBibl>
+         <listBibl type="editions">
+            <bibl><ptr target="bm:Yaqob1990MestirTextus"/></bibl>
+            <bibl><ptr target="bm:Yaqob1993MestirTextus"/></bibl>
+         </listBibl>
+            <listBibl type="translation">
+               <bibl><ptr target="bm:Yaqob1990MestirVersio"/></bibl>
+               <bibl><ptr target="bm:Yaqob1993MestirVersio"/></bibl>
+            </listBibl>
+         <listBibl type="relations">
+            <bibl/>
+            <relation name="saws:isAttributedToAuthor" active="LIT1952Mashaf" passive="PRS4709Giyorgis"/>
+         </listBibl>
+         </div>
+         
+         <div type="textpart" subtype="chapter"  xml:id="Introduction">
+            <label>Introduction</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Enumeration">
+            <label>Enumeration of the 27 (?) heresies described in this work</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter1">
+            <label>Against Sabellius</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter2">
+            <label>Against ʾAburyos, i.e. Apollinarius</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter3">
+            <label>Against Arius</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter4">
+            <label>Against Nestorius</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter5">
+            <label>Against Photinus</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter6">
+            <label>Against Origen</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter7">
+            <label></label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter8">
+            <label></label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter9">
+            <label>On the Virgin</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter10">
+            <label>Against Bitu</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter11">
+            <label>Against the Antidicomarianites</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter12">
+            <label></label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter13">
+            <label>On the holy orders</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter14">
+            <label>Against Eutyches (also ʾAftikis)</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter15">
+            <label>Against Severos, bishop of the Indies and Theodosios of Alexandria</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter16">
+            <label>Against ʾAburyos, i.e. Apollinarius</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter17">
+            <label>Against Eutyches (also ʾAftikis)</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter18">
+            <label>Against the Manichaeans</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter19">
+            <label>Against ʾArsis, i.e. heretics</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter20">
+            <label>Against Leo</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter21">
+            <label>Against the Council of Chalcedon</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter22">
+            <label>Against the Phantasiasts</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter23">
+            <label></label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter24">
+            <label>Against Origen</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter25">
+            <label></label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter26">
+            <label>Against the abrogation of the observation of Sabbath</label> <!--sub-chapters in Zotenberg-->
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter27">
+            <label>Against those who deny the immortality of the soul</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter28">
+            <label>Against Flavian</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter29">
+            <label>Against Macedonius</label>
+         </div>
+         <div type="textpart" subtype="chapter"  xml:id="Chapter30">
+            <label>Against those who deny the resurrection of the dead</label>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1931Mashaf">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ግንዘት</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Maṣḥafa gǝnzat</title>
+            <title xml:lang="en" corresp="#t1">Book of the Funeral Ritual</title>
+            <editor role="generalEditor" key="AB"/>
+            <editor key="MV"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <listWit>
+                  <witness corresp="BLadd16194"/>
+                  <witness corresp="BNFet80"/>
+                  <witness corresp="ESagm001"/>
+                  <witness corresp="ESakm008"/>
+                  <witness corresp="ESamm004"/>
+                  <witness corresp="ESamq004"/>
+                  <witness corresp="ESap032"/>
+                  <witness corresp="ESaqg006#p2_1"/>
+                  <witness corresp="ESaqg009"/>
+                  <witness corresp="ESaqm010#i1"/>
+                  <witness corresp="ESbgy011"/>
+                  <witness corresp="ESbma004"/>
+                  <witness corresp="ESbmqm005"/>
+                  <witness corresp="ESbqm006"/>
+                  <witness corresp="ESday006"/>
+                  <witness corresp="ESddm006"/>
+                  <witness corresp="ESdmb006#i1"/>
+                  <witness corresp="ESdmb009"/>
+                  <witness corresp="ESdmd007"/>
+                  <witness corresp="ESdsm007"/>
+                  <witness corresp="ESdz002"/>
+                  <witness corresp="ESehpp013"/>
+                  <witness corresp="ESeth002"/>
+                  <witness corresp="ESfbm006"/>
+                  <witness corresp="ESgkm010#i1"/>
+                  <witness corresp="ESgmg018"/>
+                  <witness corresp="ESgms003"/>
+                  <witness corresp="ESgms007#i1"/>
+                  <witness corresp="ESgms012#i1"/>
+                  <witness corresp="ESgsq012"/>
+                  <witness corresp="ESktm001"/>
+                  <witness corresp="ESmac007"/>
+                  <witness corresp="ESmgm017"/>
+                  <witness corresp="ESmhg008"/>
+                  <witness corresp="ESmkl003"/>
+                  <witness corresp="ESmkl004"/>
+                  <witness corresp="ESmm005"/>
+                  <witness corresp="ESmma003"/>
+                  <witness corresp="ESmr022"/>
+                  <witness corresp="ESmsm004#i1"/>
+                  <witness corresp="ESmy007"/>
+                  <witness corresp="ESmy010"/>
+                  <witness corresp="ESmy013"/>
+                  <witness corresp="ESmy020"/>
+                  <witness corresp="ESnsm006"/>
+                  <witness corresp="ESqds006"/>
+                  <witness corresp="ESqgm008"/>
+                  <witness corresp="ESqqm006#i1"/>
+                  <witness corresp="ESqs004"/>
+                  <witness corresp="ESqsm005"/>
+                  <witness corresp="ESsdm003"/>
+                  <witness corresp="ESsdsm001"/>
+                  <witness corresp="ESssb001#1"/>
+                  <witness corresp="ESthmr009"/>
+                  <witness corresp="ESthmr010#i1"/>
+                  <witness corresp="ESum010#i1"/>
+                  <witness corresp="ESum012"/>
+                  <witness corresp="ESum019#i2"/>
+                  <witness corresp="ESum021"/>
+                  <witness corresp="ESum055#i1"/>
+                  <witness corresp="ESwq003"/>
+               </listWit>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation notAfter="1500"/>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <abstract>
+            <p>
+               Collection of texts used for the funeral service and the preparation of the body for the burial. It is also supposed to grant forgiveness to the sins of the dead. 
+               The time of the composition of the work is unknown. The oldest extant manuscripts date to the 15th century.
+            </p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-08-30" who="MV">Added witnesses</change>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-09-06">Small change </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            <listBibl type="secondary">
+               <bibl>
+                  <ptr target="bm:Guidi1910Mashafa"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Guidi1912Dueant"/>
+               </bibl>
+            </listBibl>
+            
+            <listBibl type="editions">
+               <bibl>
+                  <ptr target="bm:Tasfa1962Genzat"/>
+               </bibl>
+               <bibl>
+                  <ptr target="bm:Berhana1963Genzat"/>
+               </bibl>
+            </listBibl>
+            
+            <listBibl type="relations">
+               <bibl/>
+               <relation name="saws:contains"
+                  active="LIT1931Mashaf"
+                  passive="LIT2042Nagarb
+                  LIT3843BookTh
+                  LIT3841Homily
+                  LIT1644Homily"/>
+               
+               <relation name="saws:contains" 
+                  active="LIT1931Mashaf" passive="LIT1629Homily">  <desc>The Dǝrsān ba-ʾǝnta ʾǝlla nomu kāhǝnāt wa-diyāqonāt is contained in most manuscripts of the Maṣḥafa gǝnzat. 
+                  <bibl><ptr target="bm:Witakowski2007Jacob"/></bibl></desc></relation>
+             
+            <relation name="saws:contains"
+               active="LIT1931Mashaf"
+               passive="LIT1758Lefafa
+               LIT1915Mashaf"><desc>The Lǝfāfa ṣǝdǝq and the Maṣḥafa ʾardǝʾǝt circulate both as independent works and as parts of the Maṣḥafa gǝnzat</desc></relation>
+               <relation name="saws:contains"
+                  active="LIT1931Mashaf" passive="LIT3957SalotaB"><desc>The Ṣalota burāke za-Bāsǝlyos is also part of <title ref="LIT1960Mashaf"/> and occurs at least once independently
+                  in <ref type="mss" corresp="BNFet71"/>.</desc></relation>
+               </listBibl>
+         </div>
+            
+         <div type="edition"><div type="textpart" xml:id="HeavenlyJourney"><label>Prayers of the heavenly journey (ṣalot za-mangada samāy)</label>
+         </div>
+         <div type="textpart" xml:id="Mary"><label>Prayer of Our Lady Mary over all dead</label></div>
+         <div type="textpart" xml:id="FuneralProcession"><label>Funeral procession (readings for the stations)</label>
+            <div type="textpart" xml:id="FirstStation"><label>Funeral procession: readings and prayers for the 1st station</label></div>
+            <div type="textpart" xml:id="SecondStation"><label>Funeral procession: readings and prayers for the 2nd station</label></div>
+            <div type="textpart" xml:id="ThirdStation"><label>Funeral procession: readings and prayers for the 3rd station</label></div>
+            <div type="textpart" xml:id="FourthStation"><label>Funeral procession: readings and prayers for the 4th station</label></div>
+            <div type="textpart" xml:id="FifthStation"><label>Funeral procession: readings and prayers for the 5th station</label></div>
+            <div type="textpart" xml:id="SixthStation"><label>Funeral procession: readings and prayers for the 6th station</label></div>
+            <div type="textpart" xml:id="SeventhStation"><label>Funeral procession: readings and prayers for the 7th station</label></div>
+            <div type="textpart" xml:id="GreetingOfTabot"><label>Funeral procession: readings and prayers for the "greeting of tabot" by the deceased</label></div>
+         </div>
+         <div type="textpart" corresp="LIT2042Nagarb"/>
+         
+         <div type="textpart" xml:id="RichMan"><label>Story of the release of an impure rich man from the Hell</label></div>
+         <div type="textpart" xml:id="Tazkar"><label>Discourse about the necessity of remembrance feast (tazkār)</label></div>
+         <div type="textpart" xml:id="Matthew"><label>Prayer of Matthew the Apostle over deceased men and women</label></div>
+         <div type="textpart" xml:id="Absolution"><label>Absolution and prayers</label></div>
+         <div type="textpart" xml:id="Priests"><label>Supplications and prayers over deceased priests</label></div>
+         <div type="textpart" xml:id="Deacons"><label>Readings and prayers over deceased deacons</label></div>
+         <div type="textpart" xml:id="Monks"><label>Readings and prayers over deceased monks</label></div>
+         <div type="textpart" xml:id="Nuns"><label>Readings and prayers over deceased nuns</label></div>
+         <div type="textpart" xml:id="Men"><label>Readings and prayers over deceased adult and young men</label></div>
+         <div type="textpart" xml:id="Children"><label>Readings and prayers over deceased children</label></div>
+         <div type="textpart" xml:id="Women"><label>Readings and prayers over deceased adult women</label></div>
+         <div type="textpart" xml:id="YoungGirls"><label>Readings and prayers over deceased young girls</label></div>
+         <div type="textpart" xml:id="Third"><label>Reading for the 3rd day after burial</label></div>
+         <div type="textpart" xml:id="Seventh"><label>Reading for the 7th day after burial</label></div>
+         <div type="textpart" xml:id="Twelfth"><label>Reading for the 12th day after burial</label></div>
+         <div type="textpart" xml:id="Thirtieth"><label>Reading for the 30th day after burial</label></div>
+         <div type="textpart" xml:id="Fourtieth"><label>Reading for the 40th day after burial </label></div>
+         <div type="textpart" xml:id="Sixtieth"><label>Reading for the 60th day after burial </label></div>
+         <div type="textpart" xml:id="Seventieth"><label>Reading for the 70th day after burial </label></div>
+         <div type="textpart" xml:id="Eightieth"><label>Reading for the 80th day after burial </label></div>
+         <div type="textpart" xml:id="SixthMonth"><label>Reading for the 6th month after burial </label></div>
+         <div type="textpart" xml:id="Anniversary"><label>Reading for the anniversary of the burial </label></div>
+         <div type="textpart" xml:id="HolyWater"><label>Readings over the holy water</label></div>
+         <div type="textpart" xml:id="Penance"><label>Prayer of the penance</label></div>
+         <div type="textpart" xml:id="Oblation"><label>Exhortation to the oblation for the redemption of the deceased</label></div>
+         <div type="textpart" xml:id="Blessings"><label>Eight Blessings of ʾabbā Sāmuʾel</label>
+            <div type="textpart" xml:id="FirstBlessing"><label>First Blessing of ʾabbā Sāmuʾel</label></div>
+            <div type="textpart" xml:id="SecondBlessing"><label>Second Blessing of ʾabbā Sāmuʾel</label></div>
+            <div type="textpart" xml:id="ThirdBlessing"><label>Third Blessing of ʾabbā Sāmuʾel</label></div>
+            <div type="textpart" xml:id="FourthBlessing"><label>Fourth Blessing of ʾabbā Sāmuʾel</label></div>
+            <div type="textpart" xml:id="FifthBlessing"><label>Fifth Blessing of ʾabbā Sāmuʾel</label></div>
+            <div type="textpart" xml:id="SixthBlessing"><label>Sixth Blessing of ʾabbā Sāmuʾel</label></div>
+            <div type="textpart" xml:id="SeventhBlessing" corresp="LIT3957SalotaB"><label>Seventh Blessing of Bāsǝlyos</label></div>
+            <div type="textpart" xml:id="EightBlessing"><label>Eighth Blessing of ʾabbā Sāmuʾel</label></div>
+         </div>
+         <div type="textpart" xml:id="Peace"><label>Prayer pronounced after the Gospel for those who died in the peace of God</label></div>
+         <div type="textpart" xml:id="Forgiveness"><label>Prayer of forgiveness</label></div>
+         <div type="textpart" xml:id="Hope"><label>Prayer of hope</label></div>
+         <div type="textpart" xml:id="Mamheran"><label>Prayer pronounced by the mamhǝrān</label></div>
+         </div>
+         
+      </body>
+   </text>
+</TEI>

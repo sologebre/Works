@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT2293Sawase">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">ሰዋስው፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Sawāsǝw (general record)</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change when="2016-09-20" who="MV">Added textparts</change>
+         <change who="DR" when="2016-11-10">Bibliography added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         
+         <div type="bibliography">
+            
+            <listBibl type="secondary">
+               <bibl><ptr target="bm:Ludolf1681Historia"/><citedRange unit="part">I</citedRange><citedRange unit="chapter">15</citedRange><citedRange unit="line">34</citedRange></bibl>
+               <bibl><ptr target="bm:Ludolf1681Historia"/><citedRange unit="part">IV</citedRange><citedRange unit="chapter">2</citedRange><citedRange unit="line">3</citedRange></bibl>
+               <bibl><ptr target="bm:Ludolf1691Commentarius"/><citedRange unit="page">209; 556</citedRange></bibl>
+               <bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="part">Prolegomena</citedRange><citedRange unit="page">XIV</citedRange></bibl>
+               <bibl><ptr target="bm:Dillmann1865Lexicon"/><citedRange unit="column">1393-1398</citedRange></bibl>
+               <bibl><ptr target="bm:Meley2010EAESawasew"/></bibl>
+               <bibl><ptr target="bm:Guidi1906Sawasew"/></bibl>
+            </listBibl>
+            
+            <listBibl type="catalogue">
+               <bibl><ptr target="bm:Ewald1846Tuebingen"/><citedRange unit="page">41-42</citedRange></bibl>
+               <bibl><ptr target="bm:Dillmann1847BM"/><citedRange unit="page">58b-60a</citedRange></bibl>
+            </listBibl>
+         </div>
+         <!-- Textparts (crossed out):
+         <div type="edition">
+         <div type="textpart" xml:id="IronTools"><label>Words concerning iron tools (ሐጻውንት፡)</label></div>
+         <div type="textpart" xml:id="Lights"><label>Words concerning lights (ብርሃናት፡)</label></div>
+         <div type="textpart" xml:id="Buildings"><label>Words concerning buildings (አብያት፡)</label></div>
+         <div type="textpart" xml:id="Waters"><label>Words concerning waters (ማያት፡)</label></div>
+         <div type="textpart" xml:id="Fightings"><label>Words concerning fightings (ባእስ፡)</label></div>
+         <div type="textpart" xml:id="Seeds"><label>Words concerning seeds (አዝርዕት፡)</label></div>
+         <div type="textpart" xml:id="PhysicalSenses"><label>Words concerning the physical senses (ሕዋሳት፡)</label></div>
+         <div type="textpart" xml:id="War"><label>Words concerning the war (ፀብእ፡)</label></div>
+         <div type="textpart" xml:id="Trees"><label>Words concerning trees (ዕፀዋት፡)</label></div>
+         <div type="textpart" xml:id="Animals"><label>Words concerning animals (አራዊት፡)</label></div>
+         <div type="textpart" xml:id="Diseases"><label>Words concerning diseases (ሕማም፡)</label></div>
+         <div type="textpart" xml:id="Garments"><label>Words concerning garments (አልባሳት፡)</label></div>
+         <div type="textpart" xml:id="Pots"><label>Words concerning pots (አጽህርት፡)</label></div>
+         <div type="textpart" xml:id="Music"><label>Words concerning musical instruments (መሰናቁት፡)</label></div>
+         <div type="textpart" xml:id="Body"><label>Words concerning the body (ሥጋ፡)</label></div>
+         <div type="textpart" xml:id="Birds"><label>Words concerning birds (አዕዋፍ፡)</label></div>
+         <div type="textpart" xml:id="Grammar"><label>Preposition, conjunctions and their use</label></div>
+         <div type="textpart" xml:id="Abbreviations"><label>Explanation of the abbreviations used in Gǝʿǝz</label></div>
+         <div type="textpart" xml:id="Stars"><label>Words concerning the stars and other celestial bodies</label></div>
+         <div type="textpart" xml:id="Satan"><label>On the names of Satan (አስማተ፡ ሰይጣን፡)</label></div>
+         <div type="textpart" xml:id="God"><label>On the names of God (አስማተ፡ እግዚአብሔር፡, አስማተ፡ ፈጣሪ፡ ዘልዑል፡)</label></div>
+         <div type="textpart" xml:id="JesusChrist"><label>On the names of Jesus Christ</label></div>
+         <div type="textpart" xml:id="Government"><label>Words concerning the government and the administration (ሥርዓተ፡ መንግሥት፡)</label></div>
+         <div type="textpart" xml:id="Money"><label>Words concerning money (ነገረ፡ ወርቅ፡)</label></div>
+         <div type="textpart" xml:id="Measurements"><label>Words concerning measurements (ሥርዓተ፡ መስፈርት፡)</label></div>
+         <div type="textpart" xml:id="Weapons"><label>Words concerning weapons (ነገረ፡ ሐፂን፡ ዘፀብእ፡)</label></div>
+         <div type="textpart" xml:id="Fortification"><label>Words concerning fortifications (ሥርዓተ፡ ሐጹር፡)</label></div>
+         <div type="textpart" xml:id="Towns"><label>Words concerning towns (ሥርዓተ፡ ሀገር፡)</label></div>
+         <div type="textpart" xml:id="Year"><label>Words concerning the year and its subdivisions (ነገረ፡ ዓመት፡ ዘይትከፈል፡)</label></div>
+         </div>
+          -->
+      </body>
+   </text>
+</TEI>

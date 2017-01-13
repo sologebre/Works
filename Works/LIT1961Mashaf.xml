@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1961Mashaf">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">መጽሐፈ፡ ሰዓታት፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t1">Maṣḥafa saʿātāt (general record)</title>
+            <title xml:lang="gez" xml:id="t2">ሰዓታት፡</title>
+            <title xml:lang="gez" type="normalized" corresp="#t2">Saʿātāt</title>
+            <title xml:lang="en" xml:id="t3">Horologium</title>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            
+            <listWit>        
+               <witness corresp="BNFet9#3">Belongs probably to <ref type="work" corresp="LIT3575Mashaf"/>, but contains the "Service at the Cockcrow" from <ref type="work" corresp="LIT2230Saatat"/>.</witness>
+               <witness corresp="BNFet11#i3"> Doesn't belong to the same recension as <ref type="mss" corresp="BNFet9"/> and <ref type="mss" corresp="BNFet12"/>
+               </witness>
+               <witness corresp="BNFet12#3">Belongs probably to <ref type="work" corresp="LIT3575Mashaf"/>, see an invocation for king <persName ref="PRS10626ZaraY">Zarʾa Yāʿǝqob</persName>, but contains the "Service at the Cockcrow" from <ref target="#S1.1Cockcrow"/> <!--correct  reference-->
+               </witness>
+               <witness corresp="BNFet13#i7"/>
+               <witness corresp="BAVet15"/>
+               <witness corresp="BAVet21"/>
+            </listWit>
+      
+            
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en"/>
+            <language ident="ar"/>
+            <language ident="it"/>
+            <language ident="gez"/>
+         </langUsage>
+         <abstract>
+            <p>  A Church service made up of psalms, biblical readings and hymns. Four types of <foreign xml:lang="gez">Saʿātāt</foreign> have been identified by <bibl>
+                  <ptr target="bm:Taft1986Liturgy"/>
+                  <citedRange unit="page">266</citedRange>
+               </bibl>:</p>
+            <p> 
+               <ref type="work" corresp="LIT2230Saatat"/>: the Coptic <foreign xml:lang="gez">Saʿātāt</foreign>;</p>
+            <p> 
+               <ref type="work" corresp="LIT3575Mashaf"/>: the <foreign xml:lang="gez">Saʿātāt</foreign> of <persName ref="PRS4709Giyorgis">Giyorgis of Saglā</persName>, 
+               which replaced the <ref type="work" corresp="LIT2230Saatat"/>:  and is presently in use in Ethiopia and Eritrea;</p>
+            <p>
+               <ref type="work" corresp="LIT3576Saatat"/>:  a <foreign xml:lang="gez">Saʿātāt</foreign> that includes the entire Psalter in the daily pensum;</p>
+            <p>
+               <ref type="work" corresp="LIT3577GizeS"/>: a cursus of prayers which is not really a <foreign xml:lang="gez">Saʿātāt</foreign>, but a <foreign xml:lang="gez">Gize ṣalot</foreign> for hermits and recluses.</p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-08-05">Added details</change>
+         <change who="DR" when="2016-08-24">Updated title</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listBibl type="editions" corresp="LIT2230Saatat">
+            <bibl>
+               <ptr target="bm:Turaev1895Saatat"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="translation" corresp="LIT2230Saatat">
+           <bibl>
+              <ptr target="bm:VanLantschoot1940Horologion"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Taft1986Liturgy"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:ZanettiFritsch2014Saatat"/>
+            </bibl>
+         </listBibl>
+         <!--should textparts be added?-->
+      </body>
+   </text>
+</TEI>

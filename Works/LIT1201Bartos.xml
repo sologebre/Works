@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="work"
+     xml:lang="en"
+     xml:id="LIT1201Bartos">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="gez" xml:id="t1">ባርቶስ፡</title>
+            <title xml:lang="gez" corresp="#t1" type="normalized">Bārtos</title>
+            <title xml:lang="en" corresp="#t1">Prayer of Mary on Bārtos</title>
+            <title xml:lang="gez" xml:id="t2">ጸሎት፡ ዘእግዚእትነ፡ ማርያም፡ ዘጸለየት፡ ባቲ፡ በውስተ፡ ሀገረ፡ በርቶስ፡</title>
+            <title xml:lang="gez" corresp="#t2" type="normalized">Ṣalot za-ʾəgziʾətna Māryam za-ṣallayat bātti ba-wəsta hagara Bartos</title>
+            <title xml:lang="en" corresp="#t2">Prayer of Our Lady Mary which she prayed in the country of Bartos </title>
+            <title xml:lang="gez" xml:id="t3">ጸሎት፡ ዘእግዚእትነ፡ ማርያም፡ ዘጸለየት፡ ባቲ፡ በውስተ፡ ሀገረ፡ ባርቶስ፡</title>
+            <title xml:lang="gez" corresp="#t3" type="normalized">Ṣalot za-ʾəgziʾətna Māryam za-ṣallayat bātti ba-wəsta hagara Bārtos</title>
+            <title xml:lang="en" corresp="#t3">Prayer of Our Lady Mary which she prayed in the country of Bārtos </title>
+            <!--Could t2 and t3 be shown as variants, not different titles?-->
+            <title xml:lang="ar" xml:id="t4Arabic">Arabic Prayer of Mary at Bartos</title>
+            <editor key="DR"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>A Work part of Ethiopian Literature</p>
+            <p>A TEI file converted from the ETHIO-authority google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+            <language ident="ar">Arabic</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+         <abstract>
+            <p>
+               Prayer of the Virgin Mary on Bartos (identified by <persName ref="PRS6378Ludolf">Ludolf</persName>, <persName ref="PRS3562Dillmann">Dillmann</persName> and <persName ref="PRS10747Zotenbe">Zotenberg</persName> as Berytus, i.e. <placeName ref="LOC1833Beirut">Bayrūt</placeName>, 
+               but probably from the Παρθος, cp. <bibl>
+                  <ptr target="bm:Guidi1888Atti"/>
+                  <citedRange unit="page">9</citedRange>
+               </bibl>), by which she delivered the <persName ref="PRS11023Mathias">Apostle Mathias</persName>.
+              It is used for magical purposes. 
+            </p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-03-21"> Created file from google
+            spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: text record</change>
+         <change who="DR" when="2016-08-04">Added information</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="bibliography">
+            
+            <listBibl type="editions">
+               <bibl> 
+                  <ptr target="bm:ContiRossini1896Vergine"/>
+                  <citedRange>463-479</citedRange>
+               </bibl>
+            </listBibl>
+            
+            <listBibl type="translation">
+               <bibl> 
+                  <ptr target="bm:Basset1895Prieres"/>
+                  <citedRange>11-30</citedRange>
+               </bibl>
+            </listBibl>
+            
+            <listBibl type="translation" corresp="#t4Arabic">
+               <bibl> 
+                  <ptr target="bm:Basset1895Prieres"/>
+                  <citedRange>48-71</citedRange>
+               </bibl>
+            </listBibl>
+            
+            <listBibl type="secondary">
+               <bibl>
+                  <ptr target="bm:Basset1895Prieres"/>
+               </bibl>
+               
+               <bibl> 
+                  <ptr target="bm:GetatchewNosnitsin2005EnAeMarian"/>
+                  <citedRange unit="page">816b</citedRange>
+               </bibl>
+               
+               <bibl> 
+                  <ptr target="bm:Burtea2005EnAeDemons"/>
+                  <citedRange unit="page">132a</citedRange>
+               </bibl>
+               
+       
+               <bibl> 
+                  <ptr target="bm:Lifchitz1940textes"/>
+                  <citedRange unit="page">15</citedRange>
+               </bibl>
+               
+               <bibl> 
+                  <ptr target="bm:Ludolf1691Commentarius"/>
+                  <citedRange unit="page">349</citedRange>
+               </bibl>
+            </listBibl>
+            
+            <listBibl type="relations">
+               <bibl/>
+               <relation name="saws:formsPartOf"
+                         active="LIT1201Bartos"
+                         passive="LIT1959Mashaf">
+                  <desc>According to <bibl>
+                        <ptr target="bm:Basset1895Prieres"/>
+                        <citedRange unit="page">7-8</citedRange>
+                     </bibl>,
+                     the Prayer of Mary on Bartos is contained in the <title ref="LIT1959Mashaf">Maṣḥafa qedar</title>.</desc>
+               </relation>
+               <relation name="saws:formsPartOf"
+                         active="LIT1201Bartos"
+                         passive="LIT3557Salota">
+                  <desc>According to <bibl>
+                        <ptr target="bm:Basset1895Prieres"/>
+                        <citedRange unit="page">7</citedRange>
+                     </bibl>,
+                     the Prayer of Mary on Bartos is contained in the <title ref="LIT3557Salota">Ṣalota rǝqet</title>.</desc>
+               </relation>
+               <relation name="saws:isVersionInAnotherLanguageOf"
+                         active="LIT1201Bartos"
+                         passive="t4Arabic">
+                  <desc>The Arabic version is very different from the Ethiopic, it has more details in the principal narration but lacks the list of angels.</desc>
+               </relation>
+            </listBibl>
+            
+         </div>
+      </body>
+   </text>
+</TEI>
